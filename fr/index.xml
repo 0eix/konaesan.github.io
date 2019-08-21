@@ -2,14 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elisée Othniel AMEGASSI</title>
-    <link>/fr/</link>
+    <link>konaesan.me/fr/</link>
     <description>Recent content on Elisée Othniel AMEGASSI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 19 Aug 2019 21:53:21 +0000</lastBuildDate>
     
-	<atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="konaesan.me/fr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CV</title>
+      <link>konaesan.me/fr/resume/</link>
+      <pubDate>Mon, 19 Aug 2019 21:53:21 +0000</pubDate>
+      
+      <guid>konaesan.me/fr/resume/</guid>
+      <description>Élisée Othniel AMEGASSI Je m&amp;rsquo;appelle Élisée Othniel AMEGASSI. Je suis un développeur vivant à Dakar, au Sénégal. Je suis un passionné d’informatique et de technologie et j’ai un grand intérêt pour le développement de jeux vidéos, les Computer Graphics et le Deep Learning.
+👔 Expériences professionnelles Avril 2019 - PRÉSENT École Supérieure Polytechnique (ESP), Dakar — Stagiaire Stagiaire au Laboratoire d&amp;rsquo;Imagerie Médicale et de Bioinformatique (LIMBI)
+👨🏾‍💻 Projets Ma page personnelle Fait grace à Hugo</description>
+    </item>
     
   </channel>
 </rss>

@@ -3,44 +3,60 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/fr/categories/</loc>
+    <loc>konaesan.me/fr/resume/</loc>
+    <lastmod>2019-08-19T21:53:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="konaesan.me/resume/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="konaesan.me/fr/resume/"
                 />
   </url>
   
   <url>
-    <loc>/fr/</loc>
+    <loc>konaesan.me/fr/</loc>
+    <lastmod>2019-08-19T21:53:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="konaesan.me/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
+                href="konaesan.me/fr/"
                 />
   </url>
   
   <url>
-    <loc>/fr/tags/</loc>
+    <loc>konaesan.me/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="konaesan.me/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/tags/"
+                href="konaesan.me/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>konaesan.me/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="konaesan.me/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="konaesan.me/fr/tags/"
                 />
   </url>
   
