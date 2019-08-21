@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Elisée Othniel AMEGASSI</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Elisée Othniel AMEGASSI</description>
+    <title>untagged on Elisée Othniel AMEGASSI</title>
+    <link>/tags/untagged/</link>
+    <description>Recent content in untagged on Elisée Othniel AMEGASSI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 21 Aug 2019 14:42:18 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>untagged</title>
-      <link>/tags/untagged/</link>
+      <title>Hello World!</title>
+      <link>/posts/2019/08/hello-world/</link>
       <pubDate>Wed, 21 Aug 2019 14:42:18 +0000</pubDate>
       
-      <guid>/tags/untagged/</guid>
-      <description></description>
+      <guid>/posts/2019/08/hello-world/</guid>
+      <description>Welcome to my blog. 🎉
+Here is my very first page and I am very excited to share with you my adventures in the ocean of programming.</description>
     </item>
     
   </channel>

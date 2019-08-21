@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Hello World!</title>
+      <link>/posts/2019/08/hello-world/</link>
+      <pubDate>Wed, 21 Aug 2019 14:42:18 +0000</pubDate>
+      
+      <guid>/posts/2019/08/hello-world/</guid>
+      <description>Welcome to my blog. 🎉
+Here is my very first page and I am very excited to share with you my adventures in the ocean of programming.</description>
+    </item>
+    
+    <item>
       <title>Resume</title>
       <link>/resume/</link>
       <pubDate>Mon, 19 Aug 2019 21:53:21 +0000</pubDate>

@@ -1,15 +1,8 @@
-/* Vanilla CSS you should try it */
-
 .main{
-    /*margin: 1em auto 10px;*/
     line-height: 1.2em;
     text-align: left;
-    /*width: 70%;*/
-    /*max-width: 35em;*/
 }
-.main h1 + p{
-    /*margin-right: 10px;*/
-}
+
 .main a, footer a{
     transition: 0.3s all cubic-bezier(0.42, 0, 0.57, 1.96)
 }
@@ -61,11 +54,17 @@
     font-size: 1.1em;
 }
 
-.main h3 strong{
+.main h5 em {
+    margin-bottom: 0px;
+    /* margin-top: -100px; */
+    font-size: 0.75em;
+}
+
+.main h5 strong{
     margin-bottom: -10px;
-    margin-top: 13px;
+    margin-top: -10px;
     font-weight: 800;
-    font-size: 1.1em;
+    font-size: 0.85em;
 }
 
 .main h6{
@@ -96,7 +95,7 @@
 }
 
 
-/* Typographic defaults */
+
 .main h1, h2, h3, h4, h5, h6{
     text-align: left;
 }
@@ -165,18 +164,13 @@
     padding-left: 7px;
 }
 
-.main ul{
-    /*padding-left: 1em;*/
-}
 
 .main ul li{
     text-align: left;
-    /*list-style-type: none;*/
     padding-left: 0.2em;
     display: list-item;
     font-weight: 200;
     font-size: 0.9em;
-    /*counter-increment: item;*/
     padding-bottom: 1em;
 }
 
@@ -231,16 +225,11 @@
     background: #ccc;
 }
 
-
-
-
-/* Utilities */
 .col-7 ul li{
     padding-left: 0.6em;
 }
 
 .col-7 ul li:before{
-    /*content: "0" counter(item) ". ";*/
     font-weight: 800;
     margin-left: -1.65em;
     margin-right: 2px;
@@ -264,41 +253,31 @@
     margin: 20px 0 0 0;
 }
 
-
-
-/* Print specific stuff (mainly for pdf generation) */
 @media print{
+
+    
     .header{
-        padding-top: 0;
+        display: none;
     }
 
-    #timclulow-word{
-        top: 0.1em;
+    main .post {
+        width: 100%;
+    max-width: 1000px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px auto;
     }
 
-    #timclulow-word, .skewed-bg{
-        transform: scale(0.55);
-        -webkit-transform: scale(0.55);
+    .post-title {
+        display: none;
     }
 
-    .skewed-bg{
-        width: 25em;
+    .post-info {
+        display: none;
     }
 
-    .main h1 + p{
-        margin-right: 2em;
-    }
-
-    .-p-left-3{
-        padding-left: 3em;
-    }
-
-    .-m-right-2{
-        padding-right: 2em;
-    }
-
-    .-p-top-3{
-        padding-top: 3em;
+    hr {
+        display: none;
     }
 
     .-print-only{
@@ -308,55 +287,23 @@
         display: none;
     }
 
-    html, body{
-        background: none;
-        overflow-x: hidden;
-    }
-
-    body{
-        font-size: 0.7em;
+    .main {
         width: 100%;
         height: 100%;
-        margin-top: 0;
+        margin: 0px;
     }
 
-    .main h2{
-        margin: 2em 0 0.4em;
+    .main .-print-only p{
+        text-align: left;
+        font-weight: 200;
+        font-size: 0.9em;
     }
 
-    .main h3{
-        margin: 0 0 1em;
-    }
-
-    .main h6{
-        margin-bottom: 0;
-    }
-
-    .main, .footer{
-        width: 100%;
-        max-width: none;
-    }
-
-    .main ul{
-        margin-top: 10px;
-        margin-left: 0.5em;
-    }
-
-    dl dd{
-        padding-bottom: 0
-    }
-
-    #pageHeader-1{
-        display: none;
-    }
-    .-float-right{
-        float: none;
-        width: 100%;
-    }
-    .-float-right .-print-only{
-        display: inline;
-    }
     .footer{
+        display: none;
+        margin: 0px !important;
+        border: 0px !important;
+        padding: 0px !important;
         padding-bottom: 0;
     }
     html{
@@ -364,6 +311,6 @@
     }
     @page {
         size: A4;
-        margin: 2cm 3cm;
+        margin: 1.5cm 2cm 2cm 1.5cm;
     }
 }
