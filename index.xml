@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elisée Othniel AMEGASSI</title>
-    <link>konaesan.me/</link>
+    <link>/</link>
     <description>Recent content on Elisée Othniel AMEGASSI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 20 Aug 2019 09:40:36 +0000</lastBuildDate>
     
-	<atom:link href="konaesan.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Resume</title>
-      <link>konaesan.me/resume/</link>
+      <link>/resume/</link>
       <pubDate>Mon, 19 Aug 2019 21:53:21 +0000</pubDate>
       
-      <guid>konaesan.me/resume/</guid>
+      <guid>/resume/</guid>
       <description>Élisée Othniel AMEGASSI My name is Élisée Othniel AMEGASSI. I am a software developer living in Dakar, Sénégal. I am passionate about computer science and technology and I have have a strong interest in game development, computer graphics and Deep learning.
 👔 Professional Experience April 2019 - PRESENT École Supérieure Polytechnique (ESP), Dakar — Intern Trainee at the Medical Imaging and Bioinformatics Laboratory (LIMBI)
 👨🏾‍💻 Projets My personal website Made using Hugo</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>404</title>
-      <link>konaesan.me/404/</link>
+      <link>/404/</link>
       <pubDate>Mon, 19 Aug 2019 21:42:37 +0000</pubDate>
       
-      <guid>konaesan.me/404/</guid>
+      <guid>/404/</guid>
       <description></description>
     </item>
     
